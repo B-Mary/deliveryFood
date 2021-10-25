@@ -147,6 +147,32 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+.slide-autumn{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/aut.png");
+}
+.slide-vitamin{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/vitamin.png");
+}
+.swiper{
+  position: relative;
+}
+.slider-buttons{
+  position: absolute;
+  right: 46px;
+  bottom: 40px;
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  justify-content: space-between;
+}
+.slider-button{
+  cursor: pointer;
+}
 /* CARD */
 .promo{
   padding-top: 50px;
@@ -477,3 +503,27 @@ body{
   text-decoration: none;
   margin-left: 20px;
 }
+
+/*  */
+@media (max-width: 1260px){
+  .container{
+    max-width: 960px;
+  }
+
+  .search-form{
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .tabs-content{
+    flex-wrap: wrap;
+  }
+  .tabs-card{
+    flex:50%;
+    margin-top:35px;
+  }
+  .last-tabs{
+    margin-left: 0;
+  }
+}
+
